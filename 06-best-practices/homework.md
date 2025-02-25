@@ -21,10 +21,9 @@ Now we need to create the "main" block from which we'll invoke
 the main function. How does the `if` statement that we use for
 this looks like? 
 
- ✔
 ```python
 if __name__ == "__main__":
-    main(year=int(sys.argv[1]), month=int(sys.argv[2]))
+    main(year=int(sys.argv[1]), month=int(sys.argv[2])) ✔
 ```
 
 
@@ -50,9 +49,8 @@ the file with tests. We can name it `test_batch.py`.
 
 What should be the other file? 
 
- ✔
 ```bash
-__init__.py
+__init__.py ✔
 ```
 
 
