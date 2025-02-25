@@ -21,8 +21,11 @@ Now we need to create the "main" block from which we'll invoke
 the main function. How does the `if` statement that we use for
 this looks like? 
 
-<b>if __name__=="__main__":
-    main(year=int(sys.argv[1]), month=int(sys.argv[2]))</b> ✔
+ ✔
+```python
+if __name__ == "__main__":
+    main(year=int(sys.argv[1]), month=int(sys.argv[2]))
+```
 
 
 Hint: after refactoring, check that the code still works. Just run it e.g. for March 2023 and see if it finishes successfully. 
@@ -47,7 +50,11 @@ the file with tests. We can name it `test_batch.py`.
 
 What should be the other file? 
 
-<b>__init__.py</b> ✔
+ ✔
+```bash
+__init__.py
+```
+
 
 Hint: to be able to test `batch.py`, we need to be able to
 import it. Without this other file, we won't be able to do it.
